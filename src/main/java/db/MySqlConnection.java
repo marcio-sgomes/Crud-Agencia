@@ -6,6 +6,7 @@ import java.sql.SQLException;
 
 public class MySqlConnection {
 	
+	// Credenciais lidas de variaveis de ambiente (nao versione senhas)
 	private static final String url = System.getenv().getOrDefault("DB_URL", "jdbc:mysql://localhost:3306/java");
 	private static final String user = System.getenv().getOrDefault("DB_USER", "root");
 	private static final String password = System.getenv().getOrDefault("DB_PASSWORD", "");
