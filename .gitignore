@@ -1,0 +1,27 @@
+# Build (Eclipse / Java)
+build/
+bin/
+target/
+out/
+*.class
+
+# Dependências do tema (Node)
+node_modules/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# IDEs
+.idea/
+.vscode/
+.settings/
+.classpath
+.project
+*.iml
+
+# Sistema operacional e logs
+.DS_Store
+Thumbs.db
+*.log
