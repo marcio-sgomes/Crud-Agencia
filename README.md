@@ -35,5 +35,5 @@ src/main/webapp/             Páginas (index.html, lista.jsp, formUpdate.jsp) e 
 
 1. Importe a pasta no Eclipse como *Dynamic Web Project* e configure um Tomcat 9 (usa `javax.servlet`).
 2. Crie no MySQL o banco `java` com a tabela `clientes` (colunas `id`, `nome`, `cpf`, `nascimento`, `situacao`).
-3. Defina as variáveis de ambiente `DB_URL` (padrão `jdbc:mysql://localhost:3306/java`), `DB_USER` (padrão `root`) e `DB_PASSWORD` na configuração do servidor.
+3. Copie `.env.example` para `.env` como referência e defina as variáveis `DB_URL` (padrão `jdbc:mysql://localhost:3306/java`), `DB_USER` (padrão `root`) e `DB_PASSWORD` na configuração do servidor (o Tomcat não lê o `.env` sozinho).
 4. Rode no Tomcat e acesse a página inicial do projeto.
